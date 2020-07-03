@@ -1,4 +1,5 @@
 body {
+  width: 1920px;
   background: url(../img/claudio.jpg) repeat-y;
   background-size: 100% auto;
 }
@@ -31,9 +32,16 @@ div.middle {
 div.middle p {
   font-family: "MuseoModerno-ExtraLight";
 } */
-
+div.peak h1 {
+  font-family: "MuseoModerno-Black";
+  margin-left: 225px;
+  padding-top: 20px;
+  font-size: 25px;
+}
 div.peak {
-  width: 320px;
+  width: 325px;
+  font-family: "MuseoModerno-ExtraLight";
+  line-height: 17px;
   background-color: lawngreen;
   box-sizing: border-box;
   padding: 0 10px;
