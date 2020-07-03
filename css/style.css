@@ -2,3 +2,17 @@ body {
   background: url(../img/claudio.jpg) repeat-y;
   background-size: 100% auto;
 }
+div.peak {
+  max-width: 320px;
+  overflow: auto;
+  position: absolute; /* блок занимает ширину содержимого, max-width её ограничивает */
+  top: 1.5em; /* прикрепить к верху родителя */
+  right: 50px;
+}
+div.middle {
+  max-width: 292px;
+  overflow: auto;
+  position: absolute;
+  top: 20em;
+  left: 50px;
+}
