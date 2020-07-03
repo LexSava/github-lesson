@@ -1,3 +1,4 @@
 body {
-  background: url(img/background.jpg);
+  background: url(../img/claudio.jpg) repeat-y;
+  background-size: 100% auto;
 }
