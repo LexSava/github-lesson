@@ -2,6 +2,9 @@ body {
   background: url(../img/claudio.jpg) repeat-y;
   background-size: 100% auto;
 }
+div {
+  font-family: "MuseoModerno-Black";
+}
 div.peak {
   max-width: 320px;
   overflow: auto;
@@ -9,10 +12,16 @@ div.peak {
   top: 1.5em; /* прикрепить к верху родителя */
   right: 50px;
 }
+div.peak p {
+  font-family: "MuseoModerno-ExtraLight";
+}
 div.middle {
   max-width: 292px;
   overflow: auto;
   position: absolute;
   top: 20em;
   left: 50px;
+}
+div.middle p {
+  font-family: "MuseoModerno-ExtraLight";
 }

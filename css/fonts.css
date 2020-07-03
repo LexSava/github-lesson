@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "MuseoModerno-Black"; /* Имя шрифта */
+  src: url(../fonts/MuseoModerno-Black.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "MuseoModerno-ExtraLight"; /* Имя шрифта */
+  src: url(../fonts/MuseoModerno-ExtraLight.ttf); /* Путь к файлу со шрифтом */
+}
