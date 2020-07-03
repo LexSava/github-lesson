@@ -2,19 +2,25 @@ body {
   background: url(../img/claudio.jpg) repeat-y;
   background-size: 100% auto;
 }
+/*
 div {
   font-family: "MuseoModerno-Black";
 }
 div.peak {
+  padding: 15px;
   max-width: 320px;
   overflow: auto;
-  position: absolute; /* блок занимает ширину содержимого, max-width её ограничивает */
-  top: 1.5em; /* прикрепить к верху родителя */
+  position: absolute; 
+  top: 1.5em; 
+  right: 50px;
+}
+div.peak h1 {
   right: 50px;
 }
 div.peak p {
-  font-family: "MuseoModerno-ExtraLight";
+  font-family: "MuseoModerno-Medium";
 }
+
 div.middle {
   max-width: 292px;
   overflow: auto;
@@ -24,4 +30,12 @@ div.middle {
 }
 div.middle p {
   font-family: "MuseoModerno-ExtraLight";
+} */
+
+div.peak {
+  width: 320px;
+  background-color: lawngreen;
+  box-sizing: border-box;
+  padding: 0 10px;
+  margin-left: 520px;
 }
