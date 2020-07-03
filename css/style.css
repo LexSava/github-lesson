@@ -34,16 +34,33 @@ div.middle p {
 } */
 div.peak h1 {
   font-family: "MuseoModerno-Black";
-  margin-left: 225px;
   padding-top: 20px;
   font-size: 25px;
+  margin-left: 225px;
 }
 div.peak {
   width: 325px;
   font-family: "MuseoModerno-ExtraLight";
   line-height: 17px;
-  background-color: lawngreen;
+  background-color: #c5ff00;
   box-sizing: border-box;
   padding: 0 10px;
-  margin-left: 520px;
+  margin: 0px auto 0px 1030px;
+}
+
+div.middle h2 {
+  font-family: "MuseoModerno-Black";
+  padding-top: 20px;
+  font-size: 20px;
+  margin-left: 235px;
+  line-height: 19px;
+}
+div.middle {
+  width: 325px;
+  font-family: "MuseoModerno-ExtraLight";
+  line-height: 17px;
+  background-color: #c5ff00;
+  box-sizing: border-box;
+  padding: 0 10px;
+  margin: 0px 0px 0px 175px;
 }
