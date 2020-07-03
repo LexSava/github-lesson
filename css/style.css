@@ -46,6 +46,7 @@ div.peak {
   box-sizing: border-box;
   padding: 5px 10px;
   margin: 0px auto 0px 1020px;
+  border-radius: 5px;
 }
 
 div.middle h2 {
@@ -63,4 +64,5 @@ div.middle {
   box-sizing: border-box;
   padding: 5px 10px;
   margin: 0px 0px 0px 175px;
+  border-radius: 5px;
 }
