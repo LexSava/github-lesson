@@ -1,6 +1,11 @@
+@font-face {
+  font-family: "MuseoModerno-Black"; /* Имя шрифта */
+  src: url(../fonts/MuseoModerno-Black.ttf); /* Путь к файлу со шрифтом */
+}
 body {
   background: url(../img/claudio.jpg) repeat-y;
   background-size: 100% auto;
+  ont-family: "MuseoModerno-Black";
 }
 div.peak {
   max-width: 320px;
