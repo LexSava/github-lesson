@@ -1,20 +1,27 @@
 body {
-  background: url(../img/claudio.jpg) repeat-y;
+  width: 1920px;
+  background: url(../img/claudio.jpg) 50% / cover no-repeat;
   background-size: 100% auto;
 }
+/*
 div {
   font-family: "MuseoModerno-Black";
 }
 div.peak {
+  padding: 15px;
   max-width: 320px;
   overflow: auto;
-  position: absolute; /* блок занимает ширину содержимого, max-width её ограничивает */
-  top: 1.5em; /* прикрепить к верху родителя */
+  position: absolute; 
+  top: 1.5em; 
+  right: 50px;
+}
+div.peak h1 {
   right: 50px;
 }
 div.peak p {
-  font-family: "MuseoModerno-ExtraLight";
+  font-family: "MuseoModerno-Medium";
 }
+
 div.middle {
   max-width: 292px;
   overflow: auto;
@@ -24,4 +31,38 @@ div.middle {
 }
 div.middle p {
   font-family: "MuseoModerno-ExtraLight";
+} */
+div.peak h1 {
+  font-family: "MuseoModerno-Black";
+  padding-top: 20px;
+  font-size: 25px;
+  margin-left: 225px;
+}
+div.peak {
+  width: 325px;
+  font-family: "MuseoModerno-ExtraLight";
+  line-height: 17px;
+  background-color: #c5ff00;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  margin: 0px auto 0px 1020px;
+  border-radius: 5px;
+}
+
+div.middle h2 {
+  font-family: "MuseoModerno-Black";
+  padding-top: 20px;
+  font-size: 20px;
+  margin-left: 235px;
+  line-height: 19px;
+}
+div.middle {
+  width: 325px;
+  font-family: "MuseoModerno-ExtraLight";
+  line-height: 17px;
+  background-color: #c5ff00;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  margin: 0px 0px 0px 175px;
+  border-radius: 5px;
 }

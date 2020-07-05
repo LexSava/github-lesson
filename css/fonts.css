@@ -6,3 +6,7 @@
   font-family: "MuseoModerno-ExtraLight"; /* Имя шрифта */
   src: url(../fonts/MuseoModerno-ExtraLight.ttf); /* Путь к файлу со шрифтом */
 }
+@font-face {
+  font-family: "MuseoModerno-Medium"; /* Имя шрифта */
+  src: url(../fonts/MuseoModerno-Medium.ttf); /* Путь к файлу со шрифтом */
+}
